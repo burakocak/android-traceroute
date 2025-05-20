@@ -12,9 +12,8 @@ Traceroute most commonly uses Internet Control Message Protocol (ICMP) echo pack
 
 # How to use
 
-```bash
-implementation "com.synaptic-tools:traceroute:1.0.0"
-```
+[![](https://jitpack.io/v/burakocak/android-traceroute.svg)](https://jitpack.io/#burakocak/android-traceroute)
+
 
 # Usages
 
