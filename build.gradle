@@ -6,7 +6,7 @@ buildscript {
         // global variables
         compile_sdk_version = 30
         kotlin_version = '1.5.31'
-        min_sdk_version = 24
+        min_sdk_version = 23
         build_tools_version = '30.0.2'
         gradle_maven_publish_plugin = '0.18.0'
         dokka_version = '1.5.30'
