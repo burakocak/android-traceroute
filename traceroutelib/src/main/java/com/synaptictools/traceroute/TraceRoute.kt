@@ -57,7 +57,7 @@ object TraceRoute: TracerouteNative() {
         return traceroute(StringVector(args))
     }
 
-    private fun traceroute(args: StringVector) : TraceRouteResult {
+    fun traceroute(args: StringVector) : TraceRouteResult {
         val result = TraceRouteResult.instance()
         result.code = execute(args)
         if(result.code == 0) {
